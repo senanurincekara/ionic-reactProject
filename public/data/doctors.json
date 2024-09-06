@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Johana Doe",
+      "job": "Nutrition Specialist",
+      "photo": "/assets/images/doctor1.png",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "job": "Cardiologist",
+      "photo": "/assets/images/doctor3.png",
+      "rating": 4
+      
+    },
+    {
+      "id": 3,
+      "name": "Emily Johnson",
+      "job": "Dermatologist",
+      "photo": "/assets/images/doctor2.png",
+      "rating": 3
+    },
+    {
+      "id": 4,
+      "name": "Michael Brown",
+      "job": "Orthopedic Surgeon",
+      "photo": "/assets/images/doctor4.png",
+      "rating": 1
+    },
+    {
+      "id": 5,
+      "name": "Sara Davis",
+      "job": "Pediatrician",
+      "photo": "/assets/images/doctor1.png",
+      "rating": 2
+    }
+  ]
+  

@@ -1,0 +1,130 @@
+.container {
+    width: 100%;
+    height: 140px;
+    background-image: url('/assets/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+
+  .ion-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+.container2{
+
+    width: 200px;
+    height: 200px; 
+
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    margin: 0 auto;
+    margin-top: -80px;
+} 
+
+.container2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  .profile-info {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .job-and-stars {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .date-picker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10px;
+  }
+  
+  .calendar-icon {
+    font-size: 24px;
+    margin-left: 8px;
+  }
+
+
+  ion-modal#example-modal {
+    --height: 50%;
+    --border-radius: 16px;
+    --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  }
+  
+  ion-modal#example-modal::part(backdrop) {
+    background: rgba(209, 213, 219);
+    opacity: 1;
+  }
+
+  .time-selection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .time-block {
+    margin: 0px 5px 5px 5px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black; 
+ 
+  }
+  
+  .time-block h3 {
+    font-size: medium;
+    margin-bottom: 5px;
+  }
+  
+  .time-block ion-button {
+    margin-bottom: 10px;
+
+    width: 80px;
+  }
+  
+
+  .container3 {
+    margin-top: 10px;
+    width: 100%;
+    height: 140px;
+    background-image: url('/assets/images/background2.png');
+    background-size: cover;
+    
+    background-position: center;
+
+    position: relative; 
+  }
+
+.container3-text-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+  
+    padding: 5px 10px;
+    border-radius: 5px;
+}
